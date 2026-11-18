@@ -22,7 +22,8 @@
    - 
 5. **HOG preprocessing and execution**
    - WIP
-6. 
+6. **Feature caching**
+   - Helper function for saving extracted feature matrices to disk (np.save, .npy data folder)
 ## Technologies Used
 - Python 3
 - NumPy
