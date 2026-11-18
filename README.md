@@ -8,20 +8,32 @@
 
 
 ## How It Works
-1. **Numbered steps list**
-   - Subheading bullet
-2. **Numbered steps list**
-   - Subheading bullet
-
-
+1. **Load the KTH-TIPS2-b dataset**
+   - WIP
+2. **Splitting the data**
+   - *GroupShuffleSplit*: Split by sample, not a standard random train_test_split
+   - e.g. train on 3 samples, validate/test on remaining sample
+3. **Label encoding**
+   - *LabelEncoder* function maps 11 material names to integers 0-10
+   - 
+4. **LBP preprocessing and execution**
+   - Convert images to grayscale
+   - Compute normalized histogram (np.histogram?) of LBP codes (2D texture map --> 1D feature vector for scikit-learn)
+   - 
+5. **HOG preprocessing and execution**
+   - WIP
+6. 
 ## Technologies Used
 - Python 3
+- NumPy
+- scikit-learn
+- scikit-image
 - ...
 
 ## Setup Instructions
 
 ### Prerequisites
-- Python 3.7 or later installed on your system
+- Python 3.7 or later
 - ...
 
 ### 1. Clone the Repository
@@ -61,10 +73,10 @@ python main.py
 
 
 ## Getting Started
-1. Numbered list outlining user-program use.
+1. WIP
 
 ## Potential Extensions
-- Bullet list 
+- WIP 
 
 ## License
 MIT License
