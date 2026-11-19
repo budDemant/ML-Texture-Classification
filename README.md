@@ -24,11 +24,16 @@
    - WIP
 6. **Feature caching**
    - Helper function for saving extracted feature matrices to disk (np.save, .npy data folder)
+7. **Evaluation
+   - Overall classification accuracy score
+   - Per-class accuracy function
+   - Confusion matrix plotting function
 ## Technologies Used
 - Python 3
 - NumPy
 - scikit-learn
 - scikit-image
+- matplotlib
 - ...
 
 ## Setup Instructions
