@@ -7,6 +7,7 @@ scikit-image==0.26.0
 scikit-learn==1.9.1
 
 # Visualization
+pandas==3.1.1
 matplotlib==3.11.2
 
 # Jupyter Notebook

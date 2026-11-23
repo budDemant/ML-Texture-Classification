@@ -2,3 +2,4 @@
 *.npy
 data/
 venv/
+.ipynb_checkpoints/
