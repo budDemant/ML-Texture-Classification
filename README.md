@@ -40,6 +40,7 @@ scikit-image | 0.26.0
 matplotlib | 3.11.2
 notebook | 7.6.5
 ipykernel | 7.4.0
+pandas | 3.1.1
 
 ## Setup Instructions
 
