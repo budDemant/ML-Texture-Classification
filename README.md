@@ -29,18 +29,24 @@
    - Per-class accuracy function
    - Confusion matrix plotting function
 ## Technologies Used
-- Python 3
-- NumPy
-- scikit-learn
-- scikit-image
-- matplotlib
-- ...
+Software | Recommended Version
+-------- | -------------------
+Python | 3.14.x
+pip | 26.3
+numpy | 2.5.5
+scipy | 1.18.1
+scikit-learn | 1.9.1 
+scikit-image | 0.26.0
+matplotlib | 3.11.2
+notebook | 7.6.5
+ipykernel | 7.4.0
 
 ## Setup Instructions
 
 ### Prerequisites
-- Python 3.7 or later
-- ...
+- Python 3.14.x
+- git
+- venv
 
 ### 1. Clone the Repository
 ```bash
@@ -68,15 +74,38 @@ source venv/bin/activate
 Install the runtime dependencies:
 
 ```bash
+python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 5. Run the Program
+Verify software installations
 
 ```bash
-python main.py
+python3 -c "import numpy, scipy, sklearn, skimage, matplotlib, PIL; print('All dependencies installed successfully.')"
 ```
 
+
+### 5. Download and Prepare the KTH-TIPS2-b Dataset
+
+The KTH-TIPS2-b dataset is not included in the Git repository and must be downloaded separately.
+
+https://www.csc.kth.se/cvap/databases/kth-tips/download.html
+
+Locate the KTH-TIPS2-b dataset and download the color image archive (kth-tips2-b_col_200x200.tar).
+
+Create a directory for the dataset in the project directory:
+
+```bash
+mkdir data && cd data
+tar -xf kth-tips2-b_col_200x200.tar
+```
+
+### 6. Running Jupyter Notebook
+Once all dependencies have been installed and while the virtual environment is active, launch Jupyter Notebook from the project folder directory:
+
+```bash
+jupyter notebook
+```
 
 ## Getting Started
 1. WIP

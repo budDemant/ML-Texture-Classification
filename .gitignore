@@ -1,2 +1,4 @@
 # Feature cache data folder
 *.npy
+data/
+venv/

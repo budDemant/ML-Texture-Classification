@@ -1,0 +1,14 @@
+# Image processing and numerical computing
+numpy==2.5.5
+scipy==1.18.1
+scikit-image==0.26.0
+
+# Machine learning
+scikit-learn==1.9.1
+
+# Visualization
+matplotlib==3.11.2
+
+# Jupyter Notebook
+notebook==7.6.5
+ipykernel==0.2.4
